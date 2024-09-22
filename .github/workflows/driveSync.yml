@@ -17,6 +17,5 @@ jobs:
         with:
           # ID of the Google Drive folder to be exported.
           google_drive_folder_id: 1Enofzz7jlcF5vVqLMAf8bVtVCZ9SYBpQ
-          github_directory: docs
     permissions:
       contents: write

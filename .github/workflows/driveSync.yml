@@ -1,6 +1,7 @@
 name: Google Drive Sync
 run-name: ${{ github.actor }} is syncing files from Google Drive
-on: [push]
+on:
+  workflow_dispatch:
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
